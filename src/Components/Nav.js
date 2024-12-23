@@ -1,11 +1,12 @@
 import React from 'react'
+import "./Nav.css"
 
 const Nav = () => {
   return (
     <div className="secondary-nav">
-            <div className="container">
-            <nav className="navbar navbar-expand-lg">
-                <div className="container-fluid">
+            <div className="container ">
+            <nav className="navbar navbar-expand-lg ">
+                <div className="container-fluid ">
                   <a className="navbar-brand" href="#">ECGLOBALPETROL</a>
                   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -22,7 +23,7 @@ const Nav = () => {
                         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         PRODUCTS
                         </a>
-                        <ul className="dropdown-menu">
+                        <ul className="dropdown-menu text-bold">
                           <li><a className="dropdown-item" href="#">PETROL-STATION</a></li>
                           <li><a className="dropdown-item" href="#">REAL-ESTATE</a></li>
                           <li><hr className="dropdown-divider"/></li>

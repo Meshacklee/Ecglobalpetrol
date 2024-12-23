@@ -1,3 +1,22 @@
-secondary-nav{
-    background-color: black;
+.secondary-nav{
+    background-color: rgb(40, 10, 209);
+    font-style: normal;
+    
+
+}
+.navbar-brand{
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navbar-nav{
+    font-weight: bold;
+    font-size: 20px;
+    color: azure;
+
+}
+
+.nav-link{
+    color: #fff;
 }
